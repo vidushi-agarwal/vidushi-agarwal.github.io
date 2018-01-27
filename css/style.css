@@ -1,0 +1,330 @@
+body{
+    background-color: #121723;
+     //background:linear-gradient(to right,#203855 0,#17283d 50%,#0e1926 100%); 
+    margin-bottom: 20%;
+     //background-image: url("C:\Users\VIDUSHI\Pictures\darkness\hey.gif");
+    overflow-x: hidden;
+    color:#ffb300;
+    font-family: 'Roboto Mono', monospace;
+
+    text-align: justify;
+
+}
+
+li {
+
+    border-bottom: :50px solid purple;
+}
+
+p {
+    //padding:40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ccff00;
+}
+
+
+
+.fa {
+    font-size: 30px;
+    text-shadow: 2px 5px 5px purple;
+    color: #b300ff;
+}
+
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: -4;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.ione {
+    width: 35%;
+    height: 35%;
+    float: left;
+    position: relative;
+    left: 10%;
+    text-shadow: 10px 10px 10px grey;
+}
+
+.three {
+    //border:10px solid #00ccff;
+}
+
+.v1 {
+    position: relative;
+    width: 40%;
+    float: right;
+   
+    padding-top: 10%;
+}
+
+.one {
+    position: relative;
+    width: 50%;
+    float: left;
+    
+}
+
+#v2 {
+    color: #ccff00;
+
+    margin: 10%;
+}
+
+#v2:hover {
+    text-shadow: 4px 4px 8px purple;
+}
+
+#panel1,
+#v2 {
+    padding: 1%;
+    text-align: center;
+    background-color: transparent;
+    border: solid 5px purple;
+}
+
+h3 {
+    margin: 0;
+    font-size: 6.25em;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    text-indent: -0.07em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+#panel {
+    position: relative;
+    padding: 50px;
+    display: none;
+    margin-bottom: 10%;
+    height: 150%;
+}
+
+
+@media (max-width:800px) {
+    .one,
+    .v1 {
+        width: 100%;
+        /*The width is 100%, when the viewport is 800px or smaller*/
+    }
+}
+
+#v41 {
+    position: relative;
+    border: purple 5px solid;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 400px;
+    height: 518px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //-webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    //-webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    //animation-name: example; //animation-duration:1s;
+    //animation-delay: 2s;
+    //animation-iteration-count: infinite;
+    z-index: 3;
+}
+iframe
+{
+    position: relative;
+    left:-4%;
+}
+
+@media only screen and (max-width:1200px) {
+    #v41 {
+        position: relative;
+        z-index: -2;
+        width: 0px;
+        height: 0px;
+    }
+    
+}
+
+#navbar {
+    overflow: hidden;
+    background-color:#121723;
+    border-bottom:purple 1px solid;
+}
+
+.bar {
+    position: absolute;
+  //height: 4em;
+  padding-top: 2em;
+  opacity: 0.6;
+  background:black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  margin-top: 5.0em;
+  width:100%;
+ 
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f04646;
+    text-align: center;
+    padding:40px 13px;
+    padding-bottom: 15px;
+    text-decoration: none;
+     text-shadow: 3px 3px 3px purple;
+    font-size: 17px;
+}
+
+#navbar i:hover {
+    
+    color: transparent;
+}
+
+#navbar a.active {
+  
+    
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+#mainlogo
+{
+    position: absolute;z-index:-3;width: 30%;height: 80%;left: 5%;top:5%;
+}
+#res
+{
+position: relative;
+width: 100%;
+height: 30%;
+
+    }
+ @media only screen and (max-width: 800px) {
+#res
+{
+width:1px;
+height: 1px;
+}
+#styleabtimg
+{
+    display: none;
+}
+#mainlogo
+{
+    position: fixed;
+    opacity: 0.3;
+    top:20%;
+    left: 20%;
+    height:50%;
+    width:50%;
+}
+#gallery
+{
+    display:none;
+}
+#one1
+{
+    display: none;
+}
+#two2
+{
+    display:none;
+}
+        .el
+        {
+            display:none;
+        }
+        #particles-js
+        {
+            display:none;
+        }
+        #galleryimg
+        {
+            display: none;
+        }
+        #v41
+        {
+            display:none;
+        }
+        #teamimg
+        {
+            display: none;
+        }
+        #ping iframe
+
+        {
+            position: relative;
+        margin-left: 3%;
+        margin-right: 3%;
+           width:100%;
+           height:100%;
+
+           margin-bottom:15%;
+        }
+        #navname
+        {
+            display: none;
+        }
+        #res
+        {
+margin-bottom: 0%;
+        }
+    }
+
+ @media only screen and (max-width: 800px) {
+        #navbar ul {
+            position: fixed;
+            width: 0px;
+            height: 0px;
+        }
+    }
+#anime
+{
+    font-size: 10vw;
+
+}
+
+.shapes
+{
+  position:absolute;
+  width:100%;
+
+  height:100%;
+}
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  z-index:6;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+ #styleabtimage {
+ -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 6000s;
+ // animation-iteration-count: infinite;
+}
+
